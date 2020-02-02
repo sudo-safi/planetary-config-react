@@ -207,8 +207,8 @@ export default class ZodiacStrip extends React.Component {
         this.g.clear();
         this.g.moveTo(this.sunZodiacContainer.x, this.sunZodiacContainer.y);
         this.g.visible = true;
-        this.g.lineStyle(6, 0xffe040);
-        this.g.beginFill(0xffe200, 0.7);
+        this.g.lineStyle(2, 0x00f2ff);
+        this.g.beginFill(0x00f2ff, 0.7);
 
         this.g.lineTo(this.targetPlanetZodiacContainer.x, this.targetPlanetZodiacContainer.y);
 
